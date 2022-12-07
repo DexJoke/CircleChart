@@ -37,6 +37,7 @@ class CircleChart : UIView{
     private var listPointOfBigCircle: [CGPoint] = [];
     private var listPointOfSatellite: [CGPoint] = [];
     private var listPointPercent: [CGPoint] = [];
+    private var listColor: [UIColor] = []
     
     override func draw(_ rect: CGRect) {
         self.centerPoint = CGPoint.init(x: rect.width/2.0, y: rect.height/2.0)
@@ -53,7 +54,7 @@ class CircleChart : UIView{
         for index in 0 ... (data.count - 1) {
             let to = from + data[index] * self.unit;
 
-            self.drawArc(from: from, to: to, color: MyColor.listColor[index], radius: self.r)
+            self.drawArc(from: from, to: to, color: listColor[index], radius: self.r)
             self.listArc.append(Arc(from: from, to: to))
             from = to;
         }
@@ -65,7 +66,7 @@ class CircleChart : UIView{
            
            for index in 0 ... self.listPointOfBigCircle.count - 1 {
                let point = self.listPointOfBigCircle[index]
-               let color = MyColor.listColor[index];
+               let color = listColor[index];
                let percent = data[index] * (100 / self.total);
                let percentPoint = self.listPointPercent[index];
                
@@ -94,6 +95,7 @@ class CircleChart : UIView{
     }
     
     public func addData(data: [CGFloat]) {
+        listColor = MyColor.randomColor(total: data.count)
         self.total = 0;
         self.listArc = [];
         

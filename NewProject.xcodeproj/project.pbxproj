@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2359860D29407E2900164583 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359860C29407E2900164583 /* MyColor.swift */; };
 		AEB5FA142412279E00439ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5FA132412279E00439ED3 /* AppDelegate.swift */; };
 		AEB5FA162412279E00439ED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5FA152412279E00439ED3 /* SceneDelegate.swift */; };
 		AEB5FA182412279E00439ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5FA172412279E00439ED3 /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		AEB5FA1D241227A300439ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB5FA1C241227A300439ED3 /* Assets.xcassets */; };
 		AEB5FA20241227A300439ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB5FA1E241227A300439ED3 /* LaunchScreen.storyboard */; };
 		AEB5FA2A24122AE900439ED3 /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5FA2924122AE900439ED3 /* CircleChart.swift */; };
-		AEB5FA2C24122B5900439ED3 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5FA2B24122B5800439ED3 /* MyColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2359860C29407E2900164583 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 		AEB5FA102412279E00439ED3 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB5FA132412279E00439ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB5FA152412279E00439ED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		AEB5FA1F241227A300439ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB5FA21241227A300439ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB5FA2924122AE900439ED3 /* CircleChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
-		AEB5FA2B24122B5800439ED3 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyColor.swift; path = ../../../Downloads/MyColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 				AEB5FA132412279E00439ED3 /* AppDelegate.swift */,
 				AEB5FA152412279E00439ED3 /* SceneDelegate.swift */,
 				AEB5FA172412279E00439ED3 /* ViewController.swift */,
+				2359860C29407E2900164583 /* MyColor.swift */,
 				AEB5FA2924122AE900439ED3 /* CircleChart.swift */,
-				AEB5FA2B24122B5800439ED3 /* MyColor.swift */,
 				AEB5FA192412279E00439ED3 /* Main.storyboard */,
 				AEB5FA1C241227A300439ED3 /* Assets.xcassets */,
 				AEB5FA1E241227A300439ED3 /* LaunchScreen.storyboard */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB5FA2C24122B5900439ED3 /* MyColor.swift in Sources */,
+				2359860D29407E2900164583 /* MyColor.swift in Sources */,
 				AEB5FA2A24122AE900439ED3 /* CircleChart.swift in Sources */,
 				AEB5FA182412279E00439ED3 /* ViewController.swift in Sources */,
 				AEB5FA142412279E00439ED3 /* AppDelegate.swift in Sources */,
